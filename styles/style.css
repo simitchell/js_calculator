@@ -25,6 +25,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -32,6 +33,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0;;
 }
 
 button {

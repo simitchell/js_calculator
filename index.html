@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator App</title>
     <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
@@ -13,27 +13,28 @@
     <h2>Enter your values for calculation below...</h2>
     <h3>Then press the equals sign and watch the JavaScripts do a big calculate!</h3>
     <div class="calcbody">
-        <header class="calcscreen">0</header>
+        <header id="display" class="calcscreen" type="text" name="display">0</header>
         <div class="calcbuttons">
-            <button id="AC" class="button, func" value=AC>AC</button>
-            <button id="plus-minus" class="button, func" value=+->+/-</button>
-            <button id="percent" class="button, func" value=%>%</button>
-            <button id="divide" class="button, op" value=/>/</button>
-            <button id="7" class="button, num" value=7>7</button>
-            <button id="8" class="button, num" value=8>8</button>
-            <button id="9" class="button, num" value=9>9</button>
-            <button id="mult" class="button, op" value=X>X</button>
-            <button id="4" class="button, num" value=4>4</button>
-            <button id="5" class="button, num" value=5>5</button>
-            <button id="6" class="button, num" value=6>6</button>
-            <button id="minus" class="button, op" value=->-</button>
-            <button id="1" class="button, num" value=1>1</button>
-            <button id="2" class="button, num" value=2>2</button>
-            <button id="3" class="button, num" value=3>3</button>
-            <button id="plus" class="button, op" value=+>+</button>
-            <button id="0" class="button, num, zero" value=0>0</button>
-            <button id="decimal" class="button, num" value=.>.</button>
-            <button id="equals" class="button, op" value==>=</button>
+            <!-- take commas out of class list -->
+            <button id="AC" class="button func" value=AC>AC</button>
+            <button id="plus-minus" class="button func" value=+->+/-</button>
+            <button id="percent" class="button func" value=%>%</button>
+            <button id="divide" class="button op" value=/>/</button>
+            <button id="7" class="button num" value=7>7</button>
+            <button id="8" class="button num" value=8>8</button>
+            <button id="9" class="button num" value=9>9</button>
+            <button id="mult" class="button op" value=X>X</button>
+            <button id="4" class="button num" value=4>4</button>
+            <button id="5" class="button num" value=5>5</button>
+            <button id="6" class="button num" value=6>6</button>
+            <button id="minus" class="button op" value=->-</button>
+            <button id="1" class="button num" value=1>1</button>
+            <button id="2" class="button num" value=2>2</button>
+            <button id="3" class="button num" value=3>3</button>
+            <button id="plus" class="button op" value=+>+</button>
+            <button id="0" class="button num zero" value=0>0</button>
+            <button id="decimal" class="button num" value=.>.</button>
+            <button id="equals" class="button op" value==>=</button>
         </div>
     </div>
     <footer class="footer">

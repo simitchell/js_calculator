@@ -38,7 +38,9 @@ h3 {
 
 button {
     color: whitesmoke;
+    font-size: 1.2rem;
     outline: none;
+    /* border-radius: 10px; */
 }
 
 .calcbody {
@@ -58,7 +60,7 @@ button {
     color: whitesmoke;
     text-align: right;
     padding: 20px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     border: none;
 }
 
